@@ -4,7 +4,7 @@ import * as fs from "fs";
 import * as path from "path";
 import * as os from "os";
 
-const CLI_PATH = path.resolve(__dirname, "../../dist/cli.cjs");
+const CLI_PATH = path.resolve(__dirname, "../../dist/cli.js");
 const FIXTURE_DIR = path.join(os.tmpdir(), "json2card-test-" + Date.now());
 
 beforeAll(() => {
