@@ -1,0 +1,30 @@
+{
+  "name": "json-to-adaptive-card",
+  "version": "1.0.0",
+  "description": "Convert any JSON data into Microsoft Adaptive Cards (v1.6)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "json2card": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "dev": "vitest"
+  },
+  "keywords": [
+    "json",
+    "adaptive-card",
+    "microsoft",
+    "teams",
+    "converter",
+    "adaptive-cards"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
+  }
+}
